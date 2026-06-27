@@ -29,7 +29,7 @@
 
 ## 1. Overview
 
-Project Sasha is an end-to-end pipeline for **multi-label classification of PTSD symptom indicators in Hebrew-language text**, with a focus on the informal register used by Israeli military veterans (WhatsApp messages, tweets, Reddit posts, diary entries — frequently containing military slang).
+The project is an end-to-end pipeline for **multi-label classification of PTSD symptom indicators in Hebrew-language text**, with a focus on the informal register used by Israeli military veterans (WhatsApp messages, tweets, Reddit posts, diary entries — frequently containing military slang).
 
 The classifier targets **8 symptom categories**, derived from DSM-5 criteria for PTSD:
 
@@ -334,20 +334,3 @@ ptsd_pipeline/
 - **Realism test sample size is small** (47 pairs) relative to the full dataset (2,000 records); detection-rate estimates carry non-trivial variance.
 - **No external/held-out clinical validation.** Performance is reported solely on a stratified split of the same synthetic distribution used for training; no real-world deployment cohort has been evaluated.
 - **Single annotator pair.** Kappa is computed between exactly two raters; it does not capture broader population-level annotator variance.
-
----
-
-## 8. Contributors
-
-| Name | Role |
-|---|---|
-| **Rotem** [Insert Last Name] | [Insert Role — e.g., Pipeline Architecture, Model Fine-Tuning] |
-| **Yuval** [Insert Last Name] | [Insert Role — e.g., Data Generation, Annotation & Validation] |
-
-[Insert acknowledgments — academic advisor, institution, or course context, if applicable]
-
----
-
-## 9. License
-
-Distributed under the **MIT License**. See [LICENSE](LICENSE) for details.
